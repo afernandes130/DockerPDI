@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<element>
+  <id>S3</id>
+  <value/>
+  <type>String</type>
+  <children>
+    <child>
+      <id>credentialsFile</id>
+      <value/>
+      <type>String</type>
+    </child>
+    <child>
+      <id>profileName</id>
+      <value/>
+      <type>String</type>
+    </child>
+    <child>
+      <id>secretKey</id>
+      <value>Encrypted 32462f4b336d2b2f76563148326269726556386572495760f7f4c78a23caaba18a32ad73eb9c86e2</value>
+      <type>String</type>
+    </child>
+    <child>
+      <id>accessKey</id>
+      <value>Encrypted 414b4943edcd9c8b22e5a5b78a4c964a89b79aec</value>
+      <type>String</type>
+    </child>
+    <child>
+      <id>name</id>
+      <value>S3</value>
+      <type>String</type>
+    </child>
+    <child>
+      <id>sessionToken</id>
+      <value/>
+      <type>String</type>
+    </child>
+    <child>
+      <id>credentialsFilePath</id>
+      <value/>
+      <type>String</type>
+    </child>
+    <child>
+      <id>description</id>
+      <value/>
+      <type>String</type>
+    </child>
+    <child>
+      <id>authType</id>
+      <value>0</value>
+      <type>String</type>
+    </child>
+    <child>
+      <id>region</id>
+      <value>us-east-1</value>
+      <type>String</type>
+    </child>
+  </children>
+  <name>S3</name>
+  <security>
+    <owner/>
+    <owner-permissions-list/>
+  </security>
+</element>
