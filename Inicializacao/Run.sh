@@ -11,13 +11,23 @@
 cp -R /tmp/git/Repositorio/* $PDI_REPOSITORY
 cp -R /tmp/git/Configuracao/.kettle/* $KETTLE_HOME
 
-echo ./pan.sh 
-echo ./pan.sh dentro do arquivo $PDI_HOME
+echo "Inicando a execução do PDI"
 
 #TODO Execução da tranformação ou JOB passado por pametro
-#$PDI_HOME/data-integration/pan.sh -rep=BiCloud -trans /TesteDocker
+#$PDI_HOME/data-integration/pan.sh -rep=BiCloud -trans /TesteDocker 
 
-case $1 in "ktr") echo "krt" ;;
-"job" ) echo "job" ;;
+
+case $1 in "ktr") 
+    echo "krt" 
+    echo $2
+    echo $3
+    #$PDI_HOME/data-integration/pan.sh -rep=$2 -trans /$3
+    ;;
+"job" ) 
+    echo "job" 
+    echo $2
+    echo $3
+    #$PDI_HOME/data-integration/pan.sh -rep=$2 -trans /$3 
+    ;;
 *) echo "opcao invalida" ;;
 esac
