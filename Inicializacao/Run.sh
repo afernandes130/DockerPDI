@@ -16,3 +16,8 @@ echo ./pan.sh dentro do arquivo $PDI_HOME
 
 #TODO Execução da tranformação ou JOB passado por pametro
 #$PDI_HOME/data-integration/pan.sh -rep=BiCloud -trans /TesteDocker
+
+case $1 in "ktr") echo "krt" ;;
+"job" ) echo "job" ;;
+*) echo "opcao invalida" ;;
+esac
