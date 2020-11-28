@@ -4,7 +4,7 @@
     <name>BiCloud</name>
     <description>File repository</description>
     <is_default>false</is_default>
-    <base_directory>D:\Working_git\Workspace-Estudos\OnCloudBI\Repositorio</base_directory>
+    <base_directory>/opt/pentaho-di/repositorio</base_directory>
     <read_only>N</read_only>
     <hides_hidden_files>N</hides_hidden_files>
   </repository>  </repositories>
