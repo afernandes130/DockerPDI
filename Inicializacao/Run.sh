@@ -9,7 +9,10 @@
 
 #Configuração para uso do repositorio no git
 cp -R /tmp/git/Repositorio/* $PDI_REPOSITORY
-cp -R /tmp/git/Configuracao/* $KETTLE_HOME
+cp -R /tmp/git/Configuracao/.kettle/* $KETTLE_HOME/.kettle/
+
+cd $KETTLE_HOME
+ls -la
 
 echo "Inicando a execução do PDI"
 
@@ -21,13 +24,13 @@ case $1 in "ktr")
     echo "krt" 
     echo $2
     echo $3
-    $PDI_HOME/data-integration/pan.sh -rep=$2 -trans=$3
+    # $PDI_HOME/data-integration/pan.sh -rep=$2 -trans=$3
     ;;
 "job" ) 
     echo "job" 
     echo $2
     echo $3
-    $PDI_HOME/data-integration/kitchen.sh -rep=$2 -job=$3 
+    # $PDI_HOME/data-integration/kitchen.sh -rep=$2 -job=$3 
     ;;
 *) echo "opcao invalida" ;;
 esac
