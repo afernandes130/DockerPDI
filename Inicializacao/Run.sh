@@ -9,7 +9,7 @@
 
 #Configuração para uso do repositorio no git
 cp -R /tmp/git/Repositorio/* $PDI_REPOSITORY
-cp -R /tmp/git/Configuracao/.kettle/* $KETTLE_HOME
+cp -R /tmp/git/Configuracao/.kettle/* $KETTLE_HOME/.kettle/
 
 cd $KETTLE_HOME
 ls -la
