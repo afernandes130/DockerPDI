@@ -11,7 +11,7 @@
 cp -R /tmp/git/Repositorio/* $PDI_REPOSITORY
 cp -R /tmp/git/Configuracao/.kettle/* $KETTLE_HOME
 
-cd PDI_REPOSITORY
+cd $PDI_REPOSITORY
 ls -la
 
 echo "Inicando a execução do PDI"
