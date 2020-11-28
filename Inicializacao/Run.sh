@@ -11,6 +11,9 @@
 cp -R /tmp/git/Repositorio/* $PDI_REPOSITORY
 cp -R /tmp/git/Configuracao/.kettle/* $KETTLE_HOME
 
+cd $KETTLE_HOME
+ls -la
+
 echo "Inicando a execução do PDI"
 
 #TODO Execução da tranformação ou JOB passado por pametro
